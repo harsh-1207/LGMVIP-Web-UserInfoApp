@@ -1,0 +1,113 @@
+*{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.gridd{
+    padding: 0;
+    background-color: white;
+}
+
+.card {
+    margin: 2%;
+    padding: 1.75%;
+    background-color: rgb(120, 51, 51);
+    height: 27rem;
+    border-radius: 50px;
+}
+
+.cardDetails{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    height: 10%;
+    padding: 0%;
+}
+.nameEmail{
+    font-weight: bold;
+    font-size: 120%;
+    padding: 5px;
+    margin-left: -20px;
+    margin-bottom: 3px;
+    width: 110%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+    margin-top: auto;
+}
+.image{
+    padding: auto;
+    margin: auto;
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(120, 51, 51);
+    border-radius: 50%;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    /* padding: 5%; */
+    background-color: brown;
+}
+
+.cardEle{
+    padding: 0;
+    margin: 0;
+    height: 0;
+}
+
+
+.upper {
+    padding: 10px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(41, 32, 32);
+    text-align: center;
+}
+
+.button2 {
+    margin: 2%;
+    background-color: grey;
+    text-align: end;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+}
+
+.BrandName{
+    margin: auto;
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 160%;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.button {
+    outline: none;
+    font-weight: bold;
+    font-size: 120%;
+    border:rgb(255, 0, 0);
+    cursor: pointer;
+    background-color: rgb(104, 75, 247);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* padding: 8px; */
+    padding: 1% 5% 1% 5%;
+    /* font-size: 22px; */
+    height: 100%;
+    width: 35%;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.button:hover {
+    background-color: rgb(9, 22, 170);
+    color: rgb(248, 239, 239);
+}
